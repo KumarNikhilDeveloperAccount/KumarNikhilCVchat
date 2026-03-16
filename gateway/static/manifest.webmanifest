@@ -1,0 +1,18 @@
+{
+  "name": "Nikhil-OS",
+  "short_name": "Nikhil-OS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1021",
+  "theme_color": "#1f2937",
+  "description": "Nikhil-OS: Architected by Kumar Nikhil.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
+

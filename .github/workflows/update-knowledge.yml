@@ -1,0 +1,23 @@
+name: Update Knowledge
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"
+
+jobs:
+  refresh-knowledge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run knowledge refresh scaffold
+        run: |
+          chmod +x scripts/update_knowledge.sh
+          scripts/update_knowledge.sh

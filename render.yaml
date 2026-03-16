@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: kumar-nikhil-ai-cv-engine
+    runtime: docker
+    plan: free
+    dockerContext: ./ai-engine
+    dockerfilePath: ./ai-engine/Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: MODEL_MODE
+        value: mock
+
+  - type: web
+    name: kumar-nikhil-ai-cv
+    runtime: docker
+    plan: free
+    dockerContext: ./gateway
+    dockerfilePath: ./gateway/Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: AI_ENGINE_URL
+        fromService:
+          type: web
+          name: kumar-nikhil-ai-cv-engine
+          property: hostport

@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  gateway:
+    build: ../../gateway
+    environment:
+      AI_ENGINE_URL: http://ai-engine:8000
+      GATEWAY_PORT: 8080
+    ports:
+      - "8080:8080"
+
+  ai-engine:
+    build: ../../ai-engine
+    environment:
+      MODEL_MODE: mock
+    ports:
+      - "8000:8000"
+
+  events:
+    build: ../../events
+    ports:
+      - "8081:8081"
+

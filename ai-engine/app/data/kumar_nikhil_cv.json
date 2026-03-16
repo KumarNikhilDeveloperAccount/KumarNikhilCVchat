@@ -1,0 +1,74 @@
+{
+  "headline": "Kumar Nikhil's Personalized AI Chat CV",
+  "identity": {
+    "name": "Kumar Nikhil",
+    "location": "Palam, New Delhi, India",
+    "phone": "9315600875",
+    "email": "nkashyapnikhilnk@gmail.com"
+  },
+  "summary": "IT Service Management and Infrastructure professional with strong hands-on experience across Change Management, Incident Management, and Service Request operations in large-scale enterprise environments. Exposure includes Windows server operations, patch management, privileged access management, virtualization, storage platforms, KT delivery, cross-training, client-facing knowledge transfer, and major project transitions with an ITIL-aligned governance mindset.",
+  "experience": [
+    {
+      "company": "DXC Technology",
+      "role": "Analyst III, Infrastructure Services",
+      "duration": "July 2022 - Present",
+      "highlights": [
+        "Manages end-to-end Incident Management including detection, logging, prioritization, escalation, coordination, resolution tracking, and closure aligned to SLA and OLA commitments.",
+        "Handles incidents, changes, and service requests using ServiceNow and HPE Service Manager depending on client environments.",
+        "Analyzes, classifies, and schedules RFCs and service requests across infrastructure, server, and application domains.",
+        "Validates change scope, technical dependencies, risk level, and production impact before CAB and eCAB approvals.",
+        "Coordinates with infrastructure, application, network, security, storage, and vendor teams for build, testing, implementation, and rollback planning.",
+        "Supports ITIL change governance, post implementation reviews, MFSA patching, SCCM patch coordination, Windows Server troubleshooting, Active Directory service requests, BeyondTrust PAM workflows, VMware vSphere coordination, and NetApp ONTAP related incident analysis.",
+        "Maintains CMDB records, validates CI relationships, prepares operational reports, delivers KT, shadow KT, and cross KT sessions, supports client transitions, and contributes to continuous service improvement."
+      ]
+    }
+  ],
+  "skills": [
+    "Incident Management",
+    "Change Management",
+    "Service Request Management",
+    "ITIL Framework",
+    "IT Service Management",
+    "ServiceNow",
+    "HPE Service Manager (HPSM)",
+    "Windows Server Administration and Troubleshooting",
+    "Active Directory",
+    "RBAC",
+    "User Access Management",
+    "Group Policies",
+    "CAB and eCAB Governance",
+    "MFSA Patching",
+    "SCCM Patch Coordination",
+    "BeyondTrust PAM",
+    "VMware vSphere",
+    "NetApp ONTAP",
+    "CMDB and Configuration Management",
+    "SLA, OLA, KPI Tracking",
+    "Operational Reporting",
+    "Knowledge Transfer",
+    "Client Transition and Handover",
+    "Audit and Compliance Support",
+    "Program Management Support"
+  ],
+  "education": [
+    "Central Board of Secondary Education - Secondary (10th Standard) (2018-2019)",
+    "CBSE Skill India - Information Technology (NSQF Level-2) (2018-2019)",
+    "Ambedkar Institute of Technology, New Delhi - Diploma in Electronics Engineering (2019-2022)",
+    "Mangalayatan University, Aligarh - B.Tech (WILP) in Computer Science and Engineering (2024-2027)"
+  ],
+  "certifications": [
+    "Oracle Certified Foundations Associate",
+    "AWS Certified Cloud Practitioner",
+    "Oracle Cloud Data Management 2023 Certified Foundations Associate",
+    "Business Intelligence Professional Foundations Certification (BIFPC)",
+    "Aviatrix Certified Engineer - Multicloud Network Associate"
+  ],
+  "internships": [
+    "Student Partner - IIT Roorkee and Cognizance (Techfest 2021)",
+    "Campus Ambassador - Lyriclious (Golden Level Internship, July 2021)"
+  ],
+  "languages": [
+    "English - Fluent",
+    "Hindi - Fluent"
+  ]
+}

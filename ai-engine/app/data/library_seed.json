@@ -1,0 +1,128 @@
+[
+  {
+    "title": "MS Dhoni",
+    "content": "MS Dhoni, also known as Mahendra Singh Dhoni, is an Indian former international cricketer and one of the most successful captains in cricket history. He led India to the 2007 ICC T20 World Cup, the 2011 Cricket World Cup, and the 2013 ICC Champions Trophy. He is widely known for calm decision-making, elite finishing ability, and wicketkeeping.",
+    "tags": ["sports", "cricket", "india", "biography"],
+    "source_kind": "seed",
+    "trust": 0.93
+  },
+  {
+    "title": "Virat Kohli",
+    "content": "Virat Kohli is an Indian international cricketer and one of the most accomplished batters of his generation. He has captained India across formats, played for Royal Challengers Bengaluru in the IPL, and is widely known for his run-scoring, consistency, and aggressive competitive style.",
+    "tags": ["sports", "cricket", "india", "biography"],
+    "source_kind": "seed",
+    "trust": 0.93
+  },
+  {
+    "title": "Rabindranath Tagore",
+    "content": "Rabindranath Tagore was an Indian poet, writer, philosopher, composer, and painter. He won the Nobel Prize in Literature in 1913, becoming the first non-European laureate in literature. He wrote Gitanjali and composed songs that later became the national anthems of India and Bangladesh.",
+    "tags": ["history", "literature", "india", "biography"],
+    "source_kind": "seed",
+    "trust": 0.95
+  },
+  {
+    "title": "Docker",
+    "content": "Docker is a containerization platform used to package applications and their dependencies into portable containers. Containers improve environment consistency, simplify deployment, and are commonly used in CI/CD pipelines, local development, and microservice platforms.",
+    "tags": ["it", "devops", "containers"],
+    "source_kind": "seed",
+    "trust": 0.96
+  },
+  {
+    "title": "Kubernetes",
+    "content": "Kubernetes is an open-source container orchestration platform that automates deployment, scaling, service discovery, rolling updates, and self-healing for containerized workloads. Core concepts include pods, deployments, services, config maps, secrets, ingress, and controllers.",
+    "tags": ["it", "cloud", "devops", "kubernetes"],
+    "source_kind": "seed",
+    "trust": 0.97
+  },
+  {
+    "title": "Terraform",
+    "content": "Terraform is an infrastructure-as-code tool used to declaratively provision and manage infrastructure across cloud and SaaS providers. It uses configuration files, a dependency graph, and state management to plan and apply infrastructure changes consistently.",
+    "tags": ["it", "cloud", "iac", "terraform"],
+    "source_kind": "seed",
+    "trust": 0.96
+  },
+  {
+    "title": "Amazon Web Services",
+    "content": "Amazon Web Services, or AWS, is a major cloud platform offering compute, storage, networking, databases, analytics, machine learning, and security services. Common foundational services include EC2, S3, IAM, RDS, Lambda, VPC, CloudFront, EKS, ECS, and CloudWatch.",
+    "tags": ["it", "cloud", "aws"],
+    "source_kind": "seed",
+    "trust": 0.97
+  },
+  {
+    "title": "Microsoft Azure",
+    "content": "Microsoft Azure is a cloud platform that provides virtual machines, managed databases, networking, identity, AI services, Kubernetes, storage, and enterprise integrations. Common services include Azure Virtual Machines, AKS, Azure SQL, App Service, Functions, and Entra ID.",
+    "tags": ["it", "cloud", "azure"],
+    "source_kind": "seed",
+    "trust": 0.96
+  },
+  {
+    "title": "Google Cloud Platform",
+    "content": "Google Cloud Platform, or GCP, is a cloud platform that offers compute, networking, data, AI, and managed Kubernetes services. Common services include Compute Engine, Cloud Storage, BigQuery, GKE, Cloud Run, IAM, Pub/Sub, and Cloud SQL.",
+    "tags": ["it", "cloud", "gcp"],
+    "source_kind": "seed",
+    "trust": 0.96
+  },
+  {
+    "title": "Kafka",
+    "content": "Apache Kafka is a distributed event streaming platform used for high-throughput, durable, and scalable message pipelines. It is commonly used for log aggregation, event-driven architectures, data pipelines, CDC streams, and real-time analytics.",
+    "tags": ["it", "streaming", "data", "kafka"],
+    "source_kind": "seed",
+    "trust": 0.95
+  },
+  {
+    "title": "Go",
+    "content": "Go is a statically typed programming language designed for simplicity, fast compilation, concurrency, and systems reliability. It is widely used for cloud infrastructure, networking services, CLIs, APIs, and developer tooling.",
+    "tags": ["it", "programming", "go"],
+    "source_kind": "seed",
+    "trust": 0.95
+  },
+  {
+    "title": "Python",
+    "content": "Python is a high-level programming language known for readability, a large ecosystem, and broad adoption across web development, automation, data engineering, AI, scientific computing, and scripting.",
+    "tags": ["it", "programming", "python"],
+    "source_kind": "seed",
+    "trust": 0.95
+  },
+  {
+    "title": "Rust",
+    "content": "Rust is a systems programming language focused on memory safety, performance, and concurrency. It uses ownership and borrowing rules to eliminate many classes of bugs without requiring a garbage collector.",
+    "tags": ["it", "programming", "rust"],
+    "source_kind": "seed",
+    "trust": 0.95
+  },
+  {
+    "title": "React",
+    "content": "React is a JavaScript library for building user interfaces using components, declarative rendering, and state-driven updates. It is commonly used for web applications, dashboards, and interactive frontends.",
+    "tags": ["it", "frontend", "react"],
+    "source_kind": "seed",
+    "trust": 0.95
+  },
+  {
+    "title": "Flutter",
+    "content": "Flutter is a UI toolkit from Google for building cross-platform applications from a single codebase. It uses Dart, composable widgets, and its own rendering engine to target mobile, web, and desktop environments.",
+    "tags": ["it", "mobile", "flutter"],
+    "source_kind": "seed",
+    "trust": 0.95
+  },
+  {
+    "title": "PostgreSQL",
+    "content": "PostgreSQL is an advanced open-source relational database known for reliability, SQL compliance, extensibility, and support for complex queries, indexing, transactions, JSON, and analytical workloads.",
+    "tags": ["it", "database", "postgresql"],
+    "source_kind": "seed",
+    "trust": 0.96
+  },
+  {
+    "title": "CI/CD",
+    "content": "CI/CD refers to continuous integration and continuous delivery or deployment. It combines automated testing, build pipelines, quality gates, artifact generation, and release automation so software can ship safely and frequently.",
+    "tags": ["it", "devops", "cicd"],
+    "source_kind": "seed",
+    "trust": 0.95
+  },
+  {
+    "title": "Cybersecurity",
+    "content": "Cybersecurity is the practice of protecting systems, networks, applications, identities, and data from unauthorized access, misuse, disruption, or attack. Core areas include identity, network security, endpoint security, application security, cloud security, incident response, and governance.",
+    "tags": ["it", "security", "cybersecurity"],
+    "source_kind": "seed",
+    "trust": 0.96
+  }
+]

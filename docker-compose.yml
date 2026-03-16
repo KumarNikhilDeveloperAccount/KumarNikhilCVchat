@@ -1,0 +1,31 @@
+services:
+  ai-engine:
+    build:
+      context: ./ai-engine
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+
+  events:
+    build:
+      context: ./events
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8081:8081"
+
+  gateway:
+    build:
+      context: ./gateway
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      AI_ENGINE_URL: http://ai-engine:8000
+      EVENTS_URL: http://events:8081
+      GATEWAY_PORT: 8080
+    ports:
+      - "8080:8080"
+    depends_on:
+      - ai-engine
+      - events
