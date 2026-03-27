@@ -2,6 +2,8 @@
 
 This workspace currently runs Kumar Nikhil's AI Chat CV as the active product experience.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/KumarNikhilDeveloperAccount/KumarNikhilCVchat)
+
 Core services:
 
 - a Go gateway serving the live UI and proxying API calls

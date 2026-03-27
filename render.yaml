@@ -3,6 +3,7 @@ services:
     name: kumar-nikhil-ai-cv-engine
     runtime: docker
     plan: free
+    autoDeploy: false
     dockerContext: ./ai-engine
     dockerfilePath: ./ai-engine/Dockerfile
     healthCheckPath: /health
@@ -14,6 +15,7 @@ services:
     name: kumar-nikhil-ai-cv
     runtime: docker
     plan: free
+    autoDeploy: false
     dockerContext: ./gateway
     dockerfilePath: ./gateway/Dockerfile
     healthCheckPath: /health
